@@ -1,6 +1,5 @@
 /*
  * Activity 1.3.6
- * Validates both parts of De Morgan's Laws.
  */
 import java.util.Scanner;
 
@@ -59,4 +58,5 @@ public class DeMorgansLaw
 
         sc.close();
     }
+
 }
