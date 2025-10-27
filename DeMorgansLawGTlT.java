@@ -1,6 +1,5 @@
 /*
  * Activity 1.3.6
- * Creates a logical OR statement and discusses short-circuit evaluation.
  */
 import java.util.Scanner; 
 
@@ -10,14 +9,12 @@ public class DeMorgansLawGTLT
     {
         Scanner sc = new Scanner(System.in);
         
-        // *Correction:* Input must use sc.nextInt() for int variables (not sc.nextBoolean())
         System.out.println("Enter a number for X");
         int x = sc.nextInt(); 
 
         System.out.println("Enter a number for Y");
         int y = sc.nextInt();
         
-        // *Add Z for a complex OR statement (as done in previous steps)*
         System.out.println("Enter a number for Z");
         int z = sc.nextInt();
         
@@ -44,3 +41,4 @@ public class DeMorgansLawGTLT
     }
 
 }
+
