@@ -20,11 +20,11 @@ public class DeMorgansLawIf
 
         if (!(a && b))
         {
-            System.out.println("\n(Given) NOT (a AND b) evaluates to true");
+            System.out.println("(Given) NOT (a AND b) evaluates to true");
         }
         else
         {
-            System.out.println("\n(Given) NOT (a AND b) evaluates to false");
+            System.out.println("(Given) NOT (a AND b) evaluates to false");
         }
         
         System.out.print("(Nested) NOT (a AND b) evaluates to: ");
@@ -52,7 +52,7 @@ public class DeMorgansLawIf
         }
         else
         {
-            System.out.println("n(Given) NOT (a OR b) evaluates to false");
+            System.out.println("(Given) NOT (a OR b) evaluates to false");
         }
 
         System.out.print(" NOT (a OR b) evaluates to: ");
@@ -77,3 +77,4 @@ public class DeMorgansLawIf
     }
 
 }
+
